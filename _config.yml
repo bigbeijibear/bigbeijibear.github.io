@@ -14,16 +14,16 @@ timezone:
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Chirpy # the main title
+title: 大北极熊BPB # the main title
 
-tagline: A text-focused Jekyll theme # it will display as the subtitle
+tagline: 简洁、专业、高性能的知识与产品博客。
 
 description: >- # used by seo meta and the atom feed
-  A minimal, responsive and feature-rich Jekyll theme for technical writing.
+  大北极熊BPB的官方博客，专注于提供简洁、专业的知识分享和产品动态。
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
-url: ""
+url: "https://bigbeijibear.github.io"
 
 github:
   username: github_username # change to your GitHub username
@@ -98,7 +98,7 @@ theme_mode: # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar:/assets/img/bigbeijibearBPBprofile.png
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
