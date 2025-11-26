@@ -1,0 +1,24 @@
+<script>
+// 禁用右键菜单 (防止通过右键点击 '复制')
+document.addEventListener('contextmenu', function(e) {
+  e.preventDefault();
+});
+
+// 禁用键盘快捷键 Ctrl+C / Cmd+C (或 Ctrl+A / Cmd+A)
+document.onkeydown = function(e) {
+  // 禁用 Ctrl+C / Cmd+C (复制)
+  if (e.ctrlKey && e.keyCode === 67) {
+    return false;
+  }
+  if (e.metaKey && e.keyCode === 67) {
+    return false;
+  }
+  // 允许粘贴操作，不影响用户其他功能
+  if (e.ctrlKey && e.keyCode === 86) {
+    return true;
+  }
+  if (e.metaKey && e.keyCode === 86) {
+    return true;
+  }
+};
+</script>
